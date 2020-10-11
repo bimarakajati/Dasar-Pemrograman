@@ -1,9 +1,20 @@
-#kamus
+#Kamus
 x = 0
-#algoritma menentukan bilangan positif dan negatif
-bil = int(input('masukkan bilangan: '))
+x = int(input('masukkan angka: '))
 
-if bil >= x:
-    print('bilangan %s adalah positif' %(bil))
+""" #else if
+if x > 0:
+    print("positif")
+elif x < 0:
+    print("negatif")
 else:
-    print('bilangan %s adalah negatif' %(bil))
+    print("nol") """
+
+#nested if
+if x > 0:
+    if x % 2 == 0:
+        print('genap')
+    else:
+        print('ganjil')
+else:
+    print('bukan bil positif')

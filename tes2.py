@@ -15,3 +15,13 @@ print('{0} + {1} = {2}' .format(a1,a2,a3))
 
 n = int(input('inputkan angka: '))
 print(3*n)
+
+#kamus
+x = 0
+#algoritma menentukan bilangan positif dan negatif
+bil = int(input('masukkan bilangan: '))
+
+if bil >= x:
+    print('bilangan %s adalah positif' %(bil))
+else:
+    print('bilangan %s adalah negatif' %(bil))
