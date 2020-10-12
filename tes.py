@@ -1,20 +1,14 @@
+#Judul: Menjumlahkan deret 
+# bilangan hingga 3
 #Kamus
-x = 0
-x = int(input('masukkan angka: '))
+N = 1
+jumlah = 0
 
-""" #else if
-if x > 0:
-    print("positif")
-elif x < 0:
-    print("negatif")
-else:
-    print("nol") """
-
-#nested if
-if x > 0:
-    if x % 2 == 0:
-        print('genap')
-    else:
-        print('ganjil')
-else:
-    print('bukan bil positif')
+#Algoritma
+while True:
+    print(N)   
+    jumlah = jumlah + N
+    N+=1
+    if N > 3:
+       break
+print(jumlah)
