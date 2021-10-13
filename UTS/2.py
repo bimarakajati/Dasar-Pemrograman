@@ -1,0 +1,20 @@
+array = int(input('Masukkan Batas Array :'))
+print("Inputkan Nilai-nilai Array A")
+aa = int(input("Array A ke-1 :"))
+ab = int(input("Array A ke-2 :"))
+ac = int(input("Array A ke-3 :"))
+ad = int(input("Array B ke-4 :"))
+print("Inputan Nilai-nilai Array B")
+ba = int(input("Array B ke-1 :"))
+bb = int(input("Array B ke-2 :"))
+bc = int(input("Array B ke-3 :"))
+bd = int(input("Array B ke-4 :"))
+print
+print("Array A  :",aa,ab,ac,ad)
+print("Array B  :",ba,bb,bc,bd)
+print("Hasil    :",ab+bb,'   ',ad+bd)
+print("Total    :",(ab+bb)+(ad+bd))
+if ((ab+bb)+(ad+bd)) % 6 == 0:
+    print('Nilai Total merupakan bilangan kelipatan 6')
+else:
+    print('Nilai Total bukan merupakan bilangan kelipatan 6')
